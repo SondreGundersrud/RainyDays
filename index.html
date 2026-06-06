@@ -7,15 +7,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css\styles.css">
-        <link rel="stylesheet" href="css\contact.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/contact.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link rel="stylesheet" href="css\index.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/topBtn.css">
+        <script src="./topBtn.js" defer></script>
         <title>RainyDays | Home</title>
     </head>
     <body>
         <header class="header">
-            <img src="assets/RainyDays_Logo.png" alt="RainyDays Logo" class="logo"/>
+            <img src="./assets/RainyDays_Logo.png" alt="RainyDays Logo" class="logo"/>
             <nav class="nav">
                 <form class="search-form">
                     <input type="text" placeholder="Search a product" class="search-input"/>
@@ -24,12 +26,12 @@
                     </button>
                 </form>
                 <ul class="nav-links">
-                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-                    <li><a href="products.html"><i class="fas fa-tshirt"></i> Products</a></li>
-                    <li><a href="about.html"><i class="fas fa-users"></i> About Us</a></li>
-                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
-                    <li><a href="profile.html"><i class="fas fa-user"></i></a></li>
-                    <li><a href="checkout.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="./index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="./products.html"><i class="fas fa-tshirt"></i> Products</a></li>
+                    <li><a href="./about.html"><i class="fas fa-users"></i> About Us</a></li>
+                    <li><a href="./contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    <li><a href="./profile.html"><i class="fas fa-user"></i></a></li>
+                    <li><a href="./checkout.html"><i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
         </header>
@@ -43,44 +45,45 @@
                     <p>Discover gear designed to inspire, empower, and elevate your journey - because with RAINYDAYS, comfort isn't a compromise, it's a guarantee.</p>
                 </div>
                 <div class="hero-image">
-                    <img src="images/trekking.jpg" alt="Two adults walking up the path to the foot of a mountain" class="hero-trekking">
+                    <img src="./images/trekking.jpg" alt="Two adults walking up the path to the foot of a mountain" class="hero-trekking">
                 </div>
             </section>
             <main class="main-container">
                 <section class="sale-section">
                     <h2>SALE - 50% OFF!</h2>
                     <h3>Limited time offer</h3>
-                    <a href="products/xtreme-weather-jacket.html">
-                        <img src="images/Xtreme Weather Jacket.jpg" alt="Xtreme Weather Jacket">
+                    <a href="./products/xtreme-weather-jacket.html">
+                        <img src="./images/Xtreme Weather Jacket.jpg" alt="Xtreme Weather Jacket">
                     </a>
                     <p class="old-price">Original price: 2.999 NOK</p>
                     <p class="price">NOW: 1.499 NOK</p>
                     <button class="cart-button">Add to cart</button>
                 </section>
                 <section class="collection">
-                    <a href="products/arctic-explorer-jacket.html"><img src="images/Arctic Explorer Jacket.jpg" alt="Arctic Explorer Jacket"></a>
-                    <a href="products/classic-fleece-jacket.html"><img src="images/Classic Fleece Jacket.jpg" alt="Classic Fleece Jacket"></a>
-                    <a href="products/goretex-adventure-jacket.html"><img src="images/Gore-Tex Adventure Jacket.jpg" alt="Gore-Tex Adventure Jacket"></a>
-                    <a href="products/stormguard-pro.html"><img src="images/StormGuard Pro.jpg" alt="StormGuard Pro"></a>
-                    <a href="products/ultralight-windbreaker.html"><img src="images/UltraLight Windbreaker.jpg" alt="UltraLight Windbreaker"></a>
-                    <a href="products/velocity-sports-jacket.html"><img src="images/Velocity Sports Jacket.jpg" alt="Velocity Sports Jacket"></a>
-                    <a href="products.html" class="explore-button">Explore our jackets</a>
+                    <a href="./products/arctic-explorer-jacket.html"><img src="./images/Arctic Explorer Jacket.jpg" alt="Arctic Explorer Jacket"></a>
+                    <a href="./products/classic-fleece-jacket.html"><img src="./images/Classic Fleece Jacket.jpg" alt="Classic Fleece Jacket"></a>
+                    <a href="./products/goretex-adventure-jacket.html"><img src="./images/Gore-Tex Adventure Jacket.jpg" alt="Gore-Tex Adventure Jacket"></a>
+                    <a href="./products/stormguard-pro.html"><img src="./images/StormGuard Pro.jpg" alt="StormGuard Pro"></a>
+                    <a href="./products/ultralight-windbreaker.html"><img src="./images/UltraLight Windbreaker.jpg" alt="UltraLight Windbreaker"></a>
+                    <a href="./products/velocity-sports-jacket.html"><img src="./images/Velocity Sports Jacket.jpg" alt="Velocity Sports Jacket"></a>
+                    <a href="./products.html" class="explore-button">Explore our jackets</a>
                 </section>
+                <button onclick="topFunction()" class="toTopBtn" title="Go to top">Top</button>
             </main>
         <footer class="footer">
             <div class="footer-content">
                 <section class="footer-section">
-                    <img src="assets/RainyDays_Logo.png" alt="Rainydays Logo" class="footer-logo" />
+                    <img src="./assets/RainyDays_Logo.png" alt="Rainydays Logo" class="footer-logo" />
                     <p>Pushing the Comfort Zone</p>
                 </section>
                 <section class="footer-section">
                     <h4>Rainydays</h4>
                     <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="checkout.html">Shopping Cart</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Customer Support</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./checkout.html">Shopping Cart</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contact.html">Customer Support</a></li>
                     </ul>
                 </section>
                 <section class="footer-section">
