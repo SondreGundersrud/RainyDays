@@ -13,8 +13,6 @@ The website will allow the user simulate the experience of visiting a live store
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - HTML
 - CSS
 - JS
